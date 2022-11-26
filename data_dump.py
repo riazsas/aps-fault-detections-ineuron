@@ -7,7 +7,6 @@ DATA_FILE_PATH ="/config/workspace/aps_failure_training_set1.csv"
 DATABASE_NAME="aps"
 COLLECTION_NAME="sensor"
 
-
 if __name__ == "__main__":
     df = pd.read_csv(DATA_FILE_PATH)
     print(f"Rows and Columns: {df.shape}")
